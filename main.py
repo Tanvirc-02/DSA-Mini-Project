@@ -1,4 +1,7 @@
 import random
+from PIL import Image
+# creating a object
+im = Image.open('C:\Tanvi\game.jpg')
 
 ladder = {1: 38, 4: 14, 8: 30, 21: 42, 28: 76, 50: 67, 71: 92,80: 99}
 snake = {32: 10, 34: 6, 48: 26, 62: 18, 88: 24, 95: 56, 97: 78}
